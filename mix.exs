@@ -30,7 +30,7 @@ defmodule Ecto.Neo4j.Mixfile do
   defp deps do
     [
       {:neo4j_sips, "~> 0.1.12"},
-      {:ecto, "~> 1.0"},
+      {:ecto, "~> 2.0"},
       {:timex, "~> 1.0.0"},
       {:dialyze, "~> 0.2.0", only: :dev},
       {:excoveralls, "~> 0.3.11", only: :test},
